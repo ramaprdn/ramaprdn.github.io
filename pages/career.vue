@@ -1,6 +1,15 @@
 <script lang="ts" setup>
 import CareerItem from '@/components/custom/CareerItem.vue';
 
+useHead({
+  title: 'Career | Rama Pradana',
+  meta: [
+    {
+      name: 'description',
+      content: 'Rama Pradana - Career'
+    }
+  ]
+});
 type Career = {
   company: string;
   subtitle: string;

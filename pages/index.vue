@@ -1,5 +1,15 @@
 <script setup lang="ts">
 import { Badge } from '@/components/ui/badge';
+
+useHead({
+  title: 'Rama Pradana',
+  meta: [
+    {
+      name: 'description',
+      content: 'Rama Pradana - Fullstack Software Engineer'
+    }
+  ]
+});
 </script>
 
 <template>
