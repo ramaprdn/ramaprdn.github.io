@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
-    'nuxt-lucide-icons'
+    'nuxt-lucide-icons',
+    '@nuxt/image'
   ],
 
   shadcn: {
@@ -25,9 +26,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
+    
   },
 
   compatibilityDate: '2024-09-16'
