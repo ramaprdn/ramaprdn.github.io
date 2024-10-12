@@ -37,6 +37,11 @@ const copyToClipboard = () => {
                 Career
               </NavigationMenuLink>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="/blogs" :class="navigationMenuTriggerStyle()">
+                Blogs
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
       </nav>
