@@ -14,49 +14,39 @@ import { Badge } from '@/components/ui/badge';
     
     <section id="tech-stack" class="mt-8">
       <p class="mt-1 mb-1 font-bold">My tech stack</p>
-      <div class="mt-1 mb-1 flex flex-row gap-2">
-        <div>Programming Languages</div>
-        <div class="flex gap-1">
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/java.svg" loading="lazy"/>Java</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/php.svg" loading="lazy"/>PHP</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/typescript.svg" loading="lazy"/>Typescript</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/golang.svg" loading="lazy"/>Go</Badge>
-        </div>
+      <div class="inline-block">
+        <span>Programming Languages</span>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/java.svg" loading="lazy"/>Java</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/php.svg" loading="lazy"/>PHP</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/typescript.svg" loading="lazy"/>Typescript</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/golang.svg" loading="lazy"/>Go</Badge>
       </div>
-      <div class="mt-1 mb-1 flex flex-row gap-2">
-        <div>Database</div>
-        <div class="flex gap-1">
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/postgres.svg" loading="lazy"/>Postgres</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/mysql.svg" loading="lazy"/>MySQL</Badge>
-        </div>
+      <div class="inline-block">
+        <span>Database</span>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/postgres.svg" loading="lazy"/>Postgres</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/mysql.svg" loading="lazy"/>MySQL</Badge>
       </div>
-      <div class="mt-1 mb-1 flex flex-row gap-2">
-        <div>Frameworks</div>
-        <div class="flex gap-1">
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/spring.svg" loading="lazy"/>Spring</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/laravel.svg" loading="lazy"/>Laravel</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/vuejs.svg" loading="lazy"/>VueJS</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/nuxtjs.svg" loading="lazy"/>NuxtJS</Badge>
-        </div>
+      <div class="inline-block">
+        <span>Frameworks</span>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/spring.svg" loading="lazy"/>Spring</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/laravel.svg" loading="lazy"/>Laravel</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/vuejs.svg" loading="lazy"/>VueJS</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/nuxtjs.svg" loading="lazy"/>NuxtJS</Badge>
       </div>
-      <div class="mt-1 mb-1 flex flex-row gap-2">
-        <div>CI/CD</div>
-        <div class="flex gap-1">
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/jenkins.svg" loading="lazy"/>Jenkins</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/githubactions.svg" loading="lazy"/>Github Action</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/teamcity.svg" loading="lazy"/>TeamCity</Badge>
-        </div>
+      <div class="inline-block">
+        <span>CI/CD</span>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/jenkins.svg" loading="lazy"/>Jenkins</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/githubactions.svg" loading="lazy"/>Github Action</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/teamcity.svg" loading="lazy"/>TeamCity</Badge>
       </div>
-      <div class="mt-1 mb-1 flex flex-row gap-2">
-        <div>Others</div>
-        <div class="flex gap-1">
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/kafka.svg" loading="lazy"/>Kafka</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/kubernetes.svg" loading="lazy"/>Kubernetes</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/docker.svg" loading="lazy"/>Docker</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/tailwind.svg" loading="lazy"/>Tailwind</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="~/assets/icons/elasticsearch.svg" loading="lazy"/>Elasticsearch</Badge>
-          <Badge variant="secondary"><img class="left-badge-icon" src="https://github.com/inertiajs.png" loading="lazy"/>InertiaJS</Badge>
-        </div>
+      <div class="inline-block">
+        <span>Others</span>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/kafka.svg" loading="lazy"/>Kafka</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/kubernetes.svg" loading="lazy"/>Kubernetes</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/docker.svg" loading="lazy"/>Docker</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/tailwind.svg" loading="lazy"/>Tailwind</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="~/assets/icons/elasticsearch.svg" loading="lazy"/>Elasticsearch</Badge>
+        <Badge variant="secondary" class="m-1"><img class="left-badge-icon" src="https://github.com/inertiajs.png" loading="lazy"/>InertiaJS</Badge>
       </div>
     </section>
   </div>

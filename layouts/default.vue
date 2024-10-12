@@ -45,7 +45,7 @@ const copyToClipboard = () => {
     </div>
     <footer>
         <div class="flex gap-3 justify-center mt-[64px] text-muted-foreground">
-          <div><Button variant="link" @click="copyToClipboard">{{ email }}</Button></div>
+          <div><Button variant="link" @click="copyToClipboard">email</Button></div>
           <div><Button as-child variant="link"><a href="https://www.linkedin.com/in/rama-pradana" target="_blank"">linkedin</a></Button></div>
           <div><Button as-child variant="link"><a href="https://github.com/ramaprdn" target="_blank"">github</a></Button></div>
         </div>
